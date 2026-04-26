@@ -246,13 +246,100 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Analítica de datos',
+      significado:
+        'proceso mediante el cual se examinan, transforman y analizan datos con el fin de obtener información útil que apoye la toma de decisiones en contextos organizacionales.',
+    },
+    {
+      termino: 'Business Intelligence (BI)',
+      significado:
+        'conjunto de estrategias, metodologías y procesos orientados a convertir datos en información y conocimiento relevante para la gestión y la toma de decisiones.',
+    },
+    {
+      termino: 'Fuentes de datos',
+      significado:
+        'orígenes desde los cuales se obtienen los datos utilizados en procesos de analítica, como bases de datos, archivos planos, registros (logs) o archivos de Excel.',
+    },
+    {
+      termino: 'Ecosistema de datos',
+      significado:
+        'conjunto de fuentes, sistemas, procesos y actores que interactúan alrededor de los datos dentro de una organización, influyendo en su generación, gestión y uso.',
+    },
+    {
+      termino: 'Modelo de datos',
+      significado:
+        'representación estructurada de la información que define entidades, atributos y relaciones, permitiendo organizar los datos de forma coherente para su análisis.',
+    },
+    {
+      termino: 'Granularidad',
+      significado:
+        'nivel de detalle con el que se registran los datos en un modelo, determinando el tipo de análisis y las agregaciones que pueden realizarse.',
+    },
+    {
+      termino: 'Proceso ETL (Extract, Transform, Load)',
+      significado:
+        'proceso conceptual mediante el cual los datos son extraídos desde las fuentes, transformados según reglas de negocio y cargados en un modelo analítico para su posterior análisis.',
+    },
+    {
+      termino: 'JSON (JavaScript Object Notation)',
+      significado:
+        'formato de datos semiestructurados basado en texto, utilizado para el intercambio de información entre sistemas, caracterizado por su simplicidad y legibilidad.',
+    },
+    {
+      termino: 'XML (eXtensible Markup Language)',
+      significado:
+        'lenguaje de marcado que permite estructurar, almacenar y transportar datos mediante etiquetas definidas por el usuario, ampliamente utilizado para el intercambio de información entre aplicaciones.',
+    },
+    {
+      termino: 'Silos de datos',
+      significado:
+        'situación en la que la información se encuentra aislada en diferentes sistemas o áreas de una organización, dificultando su integración, análisis y aprovechamiento estratégico.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Few, S. (2006). Information Dashboard Design: Displaying Data for At-a-glance Monitoring.',
+      link:
+        'https://public.magendanz.com/Temp/Information%20Dashboard%20Design.pdf',
+    },
+    {
+      referencia:
+        'Harris, J., y Davenport, T. (2007). Competing on Analytics: The New Science of Winning.',
+      link:
+        'https://books.google.com.co/books/about/Competing_on_Analytics.html?id=n7Gp7Q84hcsCyredir_esc=y',
+    },
+    {
+      referencia:
+        'Kenneth C., L., y Laudon, J. (2016). Sistemas de información gerencial.',
+      link:
+        'https://gc.scalahed.com/recursos/files/r161r/w25735w/ld-Sistemas_de_informacion_gerencial_14%20edicion.pdf',
+    },
+    {
+      referencia:
+        'Kimball, R., y Ross, M. (2013). The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling.',
+      link: '',
+    },
+    {
+      referencia:
+        'Laudon, K., y Laudon, J. (2020). Sistemas de información de gestión: Gestionar la empresa digital (16 ed.).',
+      link: '',
+    },
+    {
+      referencia:
+        'Provost, F., y Fawcett, T. (2013). Data Science for Business: What You Need to Know about Data Mining and Data-Analytic Thinking.',
+      link:
+        'https://books.google.com.co/books/about/Data_Science_for_Business.html?id=4ZctAAAAQBAJyredir_esc=y',
+    },
+    {
+      referencia:
+        'Redman, T. (2008). Data driven: Profiting from your most important business asset.',
+      link:
+        'https://books.google.com.pe/books?id=Q5CJJ2wVkYACyprintsec=frontcover#v=onepageyqyf=false',
+    },
+    {
+      referencia:
+        'Silva, G. (2019). Análisis de metodologías para desarrollar Data Warehouse aplicado a la toma de decisiones. Escuela Superior Politécnica del Chimborazo.',
       link: '',
     },
   ],
