@@ -17,39 +17,39 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Fundamentos de analítica, requerimientos y modelado de datos',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Evaluar la comprensión de los fundamentos de la analítica de datos, la identificación y priorización de requerimientos, las fuentes y el ecosistema de datos, el modelado de datos y los conceptos básicos del proceso ETL, como base para soluciones de <i>Business Intelligence</i>.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: 'La analítica de datos se define principalmente como:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'El uso de herramientas tecnológicas para crear gráficos.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'El almacenamiento masivo de información.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'El conjunto de procesos orientados a analizar datos para apoyar la toma de decisiones.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'La automatización de sistemas de información.',
               esCorrecta: false,
             },
           ],
@@ -59,29 +59,29 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            'La analítica descriptiva se caracteriza por responder a la pregunta:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '¿Qué debería hacerse?',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '¿Qué pasará en el futuro?',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: '¿Por qué ocurrió un evento?',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: '¿Qué ocurrió?',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -89,28 +89,30 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto: 'Business Intelligence tiene como propósito principal:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Reemplazar los sistemas transaccionales por otros más ágiles y de mejor modelo.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Convertir datos en información útil para la toma de decisiones.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Automatizar procesos operativos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Eliminar la necesidad de análisis humano.',
               esCorrecta: false,
             },
           ],
@@ -119,29 +121,29 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+          texto: 'Un requerimiento de información se entiende como:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Una necesidad de información formulada de manera clara y medible.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Un deseo general del cliente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Una solicitud técnica de una herramienta.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Un indicador visual.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +152,28 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto: 'Las preguntas de negocio permiten principalmente:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Seleccionar herramientas tecnológicas.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Formular requerimientos de información.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Diseñar interfaces gráficas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Automatizar procesos ETL.',
               esCorrecta: false,
             },
           ],
@@ -180,29 +182,28 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: 'La priorización de requerimientos busca:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Eliminar requerimientos complejos.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Abordar todos los requerimientos al mismo tiempo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Determinar cuáles requerimientos generan mayor valor.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Reducir la cantidad de datos.',
               esCorrecta: false,
             },
           ],
@@ -211,29 +212,28 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+          texto: 'Una fuente de datos interna corresponde a:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Información obtenida de fuentes públicas.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Datos generados dentro de la organización.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Datos estadísticos externos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Información no estructurada.',
               esCorrecta: false,
             },
           ],
@@ -242,29 +242,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: '¿Cuál de los siguientes es un ejemplo de archivo plano?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Base de datos relacional.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Archivo CSV.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Sistema ERP.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Repositorio de imágenes.',
               esCorrecta: false,
             },
           ],
@@ -273,20 +272,29 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+          texto: 'Los datos estructurados se caracterizan por:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Estar organizados en tablas con filas y columnas.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'No tener ningún tipo de organización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Presentarse únicamente en texto libre.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Ser datos multimedia.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -294,19 +302,28 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+          texto: 'La calidad de los datos impacta directamente:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'La estética de los tableros.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'El diseño de interfaces.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La confiabilidad de los análisis.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'La velocidad de internet.',
               esCorrecta: false,
             },
           ],
@@ -315,19 +332,28 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: 'Un modelo de datos permite principalmente:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Almacenar archivos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Automatizar reportes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Diseñar interfaces gráficas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Representar de forma estructurada la información.',
               esCorrecta: true,
             },
           ],
@@ -336,19 +362,28 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: 'La granularidad en un modelo de datos define:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'El formato del archivo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'El nivel de detalle de los registros.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'El tipo de gráfico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La estética.',
               esCorrecta: false,
             },
           ],
@@ -358,18 +393,28 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+            'En un modelo dimensional, la tabla de hechos se caracteriza por:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Contener eventos medibles.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Almacenar descripciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Definir reglas de negocio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Representar catálogos.',
               esCorrecta: false,
             },
           ],
@@ -378,20 +423,29 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: 'Las dimensiones permiten principalmente:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Calcular indicadores.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Proporcionar contexto para el análisis.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Almacenar eventos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Automatizar transformaciones.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -399,19 +453,183 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+          texto: 'El proceso ETL corresponde a:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Extracción, Transformación y Lectura.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Evaluación, Transformación y Limpieza.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Extracción, Transformación y Carga.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Ejecución, Transferencia y Listado.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            'Una organización desea conocer cuántos servicios presta por mes y por sede. ¿Qué tipo de analítica se aplica?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Predictiva.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Prospectiva.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Diagnóstica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Descriptiva.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            'Un cliente solicita “un tablero bonito” sin definir análisis. ¿Qué debe hacerse primero?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Seleccionar gráficos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Instalar herramienta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Identificar y formular requerimientos de información.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Construir el tablero.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            'Un indicador presenta duplicados por relaciones incorrectas. ¿Qué falló?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Visualización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Granularidad del modelo de datos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Tipo de gráfico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Color del tablero.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            'Se integran datos de Excel y base de datos, corrigiendo formatos. ¿Qué proceso es?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Modelado lógico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Visualización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Auditoría.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'ETL.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            'Un modelo de datos no responde una pregunta clave. ¿Qué debe revisarse primero?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La alineación entre requerimientos y modelo de datos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'La herramienta de visualización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El diseño gráfico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El formato del archivo.',
               esCorrecta: false,
             },
           ],
