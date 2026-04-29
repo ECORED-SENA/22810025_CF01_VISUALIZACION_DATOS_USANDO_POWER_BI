@@ -168,7 +168,7 @@
                 span.fa-li
                   i.fas.fa-check-circle
                 | Incorporan claves hacia dimensiones (fecha, sede, servicio). (Kimball y Ross, 2013).
-          .row(titulo="ITablas de dimensiones (<em>Dim Tables</em>)").ajuste-cajaAcordion
+          .row(titulo="Tablas de dimensiones (<em>Dim Tables</em>)").ajuste-cajaAcordion
             ul.fa-ul.mb-3
               li.mb-0
                 span.fa-li

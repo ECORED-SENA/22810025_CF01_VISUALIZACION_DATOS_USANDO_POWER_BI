@@ -275,7 +275,7 @@
                   tr.ajuste-color-tabla
                     td.ajuste-border-tabla.texto-left #[b Acción]
                     td.ajuste-border-tabla.texto-left Observar
-                    td.texto-left Identificar desviaciones superiores al 5% respecto a la meta presupuestada
+                    td.texto-left Identificar desviaciones superiores al 5 % respecto a la meta presupuestada
         .caja-tema1-1.mb-5(data-aos="fade-right")
           .col-lg-auto
             figure

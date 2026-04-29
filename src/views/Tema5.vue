@@ -159,7 +159,7 @@
           SlyderA(tipo="b")
             .row.justify-content-center.align-items-center
               .col-xl-6.mb-4
-                h4 Normalización vs. Desnormalización
+                h4 Normalización vs. desnormalización
                 p.mb-0 La normalización busca reducir redundancia organizando los datos en múltiples tablas, mientras que la desnormalización prioriza estructuras más simples para facilitar el análisis. En #[i Business Intelligence], se busca un equilibrio entre eficiencia y facilidad de uso.
               .col-xl-6
                 figure
@@ -173,7 +173,7 @@
                   img(src='@/assets/curso/temas/img96.png', alt='' style="max-width: 500px").m-auto
             .row.justify-content-center.align-items-center
               .col-xl-6.mb-4
-                h4 Columnas calculadas vs. Medidas
+                h4 Columnas calculadas vs. medidas
                 p.mb-0 Las columnas calculadas se generan durante la carga de datos, mientras que las medidas se calculan en tiempo real según los filtros aplicados por el usuario.
               .col-xl-6
                 figure

@@ -72,21 +72,24 @@
             .row.justify-content-center.align-items-center
               .col-xl-6.mb-4
                 h4.mb-0 Datos estructurados
-                p.mb-0 Se organizan en esquemas definidos, generalmente en tablas con filas y columnas, como en las bases de datos relacionales. Facilitan su almacenamiento, consulta y análisis mediante herramientas tradicionales.
+                P.
+                p.mb-5 Se organizan en esquemas definidos, generalmente en tablas con filas y columnas, como en las bases de datos relacionales. Facilitan su almacenamiento, consulta y análisis mediante herramientas tradicionales.
               .col-xl-6
                 figure
                   img(src='@/assets/curso/temas/img43.png', alt='' style="max-width: 500px").m-auto
             .row.justify-content-center.align-items-center
               .col-xl-6.mb-4
                 h4.mb-0 Datos semiestructurados
-                p.mb-0 Poseen cierta organización, pero no siguen un esquema rígido. Ejemplos comunes incluyen archivos #[i JSON] o #[i XML], donde la información se estructura mediante etiquetas o claves.
+                P.
+                p.mb-5 Poseen cierta organización, pero no siguen un esquema rígido. Ejemplos comunes incluyen archivos #[i JSON] o #[i XML], donde la información se estructura mediante etiquetas o claves.
               .col-xl-6
                 figure
                   img(src='@/assets/curso/temas/img44.png', alt='' style="max-width: 500px").m-auto
             .row.justify-content-center.align-items-center
               .col-xl-6.mb-4
                 h4.mb-0 Datos no estructurados
-                p.mb-0 No presentan una estructura predefinida. Incluyen textos libres, imágenes, audios o videos, lo que dificulta su procesamiento mediante métodos tradicionales.
+                P.
+                p.mb-5 No presentan una estructura predefinida. Incluyen textos libres, imágenes, audios o videos, lo que dificulta su procesamiento mediante métodos tradicionales.
               .col-xl-6
                 figure
                   img(src='@/assets/curso/temas/img45.png', alt='' style="max-width: 500px").m-auto
@@ -153,11 +156,11 @@
               li.mb-0
                 span.fa-li
                   i.fas.fa-check-circle
-                | #[i Latencia]: tiempo entre la ocurrencia del hecho y su disponibilidad en #[i Power BI] u otra herramienta.
+                | #[b Latencia]: tiempo entre la ocurrencia del hecho y su disponibilidad en #[i Power BI] u otra herramienta.
               li.mb-0
                 span.fa-li
                   i.fas.fa-check-circle
-                | #[i Configuración de tiempos]: programación del cargue automático de datos para reflejar la realidad actual.
+                | #[b Configuración de tiempos]: programación del cargue automático de datos para reflejar la realidad actual.
           .row(titulo="Ausencia de duplicados y depuración de valores").ajuste-cajaAcordion
             p La depuración de datos es obligatoria antes de generar reportes.
             ul.fa-ul.mb-3
